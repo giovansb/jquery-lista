@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+h1{
+    color: rgba(214, 31, 168, 0.5);
+    font-family: 'Lemon', serif;
+}
+
+#nomeDaTarefa {
+    font-size: 18px;
+    border-color: rgba(214, 31, 168, 0.3) ;
+    border-radius: 5px;
+    text-align: center;
+    color: rgba(214, 31, 168, 0.7);
+}
+
+button {
+    background-color: rgba(214, 31, 168, 0.5);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Lemon', serif;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    color: brown;
+}
+
+.lista {
+    display: block;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+.lista-form {
+    margin-left: 20px;
+}
+
+
+p:hover {
+    cursor: pointer;
+}
+
+
+ul {
+    list-style: linear-gradient(blue, pink);
+    color: rgba(214, 31, 168, 0.7);
+    
+}
+li p {
+    font-family: 'Lemon', serif;
+    
+}
